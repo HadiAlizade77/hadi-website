@@ -1,0 +1,1606 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>
+        Antoine Wodniack / Senior Front-End Developer
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#6300b9">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#6300b9">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Antoine Wodniack / Senior Front-End Developer" />
+    <meta property="og:description" content="I work with Web Designers to integrate their designs flawlessly with a touch of animation." />
+    <meta property="og:url" content="https://wodniack.dev/" />
+    <meta property="og:site_name" content="Antoine Wodniack / Senior Front-End Developer" />
+    <meta property="og:image" content="https://wodniack.dev/static/site.jpg" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://wodniack.dev/static/site.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="/static/fonts/keiner.css" rel="stylesheet">
+    <link rel="preload" href="/static/letter-d.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-dash.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-e.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-f.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-i.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-l.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-n.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-o.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-p.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-r.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-s.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-t.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="/static/letter-v.svg" as="image" type="image/svg+xml" />
+    <link href="/dist/style.css" rel="stylesheet">
+    <script src="/dist/vendor.js"></script>
+    <script src="/dist/script.js?v=2"></script>
+</head>
+
+<body class="noise">
+    <div class="site-loader noise">
+        <svg xmlns="http://www.w3.org/2000/svg" width="61.949" height="21.385" viewBox="0 0 61.949 21.385" class="logo">
+<g>
+<path d="M60.493,3.675,49.176,14.992,37.684,3.5,26.309,14.817,15.05,3.558,3.5,15.167" transform="translate(-1.019 1.443)" fill="none" stroke="#7a30cf" stroke-miterlimit="10" stroke-width="7" />
+</g>
+<g>
+<rect width="7" height="7" fill="white" x="-9" y="24"></rect>
+<rect width="7" height="7" fill="white" x="66" y="-9"></rect>
+<rect width="7" height="7" fill="white" x="66" y="-9"></rect>
+</g>
+</svg>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="61.949" height="21.385" viewBox="0 0 61.949 21.385" class="site-logo"><path d="M60.493,3.675,49.176,14.992,37.684,3.5,26.309,14.817,15.05,3.558,3.5,15.167" transform="translate(-1.019 1.443)" fill="none" stroke-miterlimit="10" stroke-width="7" /></svg>
+    <header class="site-head">
+        <h1 class="site-title">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 873 400" width="873" height="400" xml:space="preserve" preserveAspectRatio="xMinYMin meet" class="title">
+<g>
+<path class="letter-r" data-letter="r" d="M871.6,305.1	c-4.3-14.8-17.9-25.1-33.3-25.1h-53.9v120h19.2v-50.4h23.7l24.3,50.4H873l-25.1-51.7C866.3,342.9,877,323.6,871.6,305.1z M803.5,330.4v-31.2h34.7c8.6,0,15.6,7,15.6,15.6c0,8.6-7,15.6-15.6,15.6H803.5z" />
+<path class="letter-e" data-letter="e" d="M688.6,280h80v19.2h-60.8v31.2h56	v19.2h-56v31.2h60.8V400h-80V280z" />
+<path class="letter-p" data-letter="p" d="M641.3,280h-53.9v120h19.2v-50.4h34.7c19.2,0,34.8-15.6,34.8-34.8	C676.1,295.6,660.5,280,641.3,280z M641.3,330.4h-34.7v-31.2h34.7c8.6,0,15.6,7,15.6,15.6C656.9,323.4,649.9,330.4,641.3,330.4z" />
+<path class="letter-o" data-letter="o" d="M526.9,280c-24.6,0-44.5,19.9-44.5,44.5c0,0,0,0,0,0v31c0.2,24.5,20,44.3,44.5,44.5	c24.5-0.2,44.3-20,44.5-44.5v-31C571.4,299.9,551.5,280,526.9,280z M552.2,355.5c0,14-11.3,25.3-25.3,25.3	c-14,0-25.3-11.3-25.3-25.3l0,0v-31c0-14,11.3-25.3,25.3-25.3c14,0,25.3,11.3,25.3,25.3V355.5z" />
+<path class="letter-l" data-letter="l" d="M425.1,380.8h51.2V400h-70.4l0-120	h19.2V380.8z" />
+<path class="letter-e" data-letter="e" d="M310.2,280h80v19.2h-60.8v31.2h56	v19.2h-56v31.2h60.8V400h-80V280z" />
+<path class="letter-v" data-letter="v" d="M279.7,280h20.2l-39.2,120h-25	l-39.4-120h20.2l31.7,96.6L279.7,280z" />
+<path class="letter-e" data-letter="e" d="M109.4,280h80v19.2h-60.8v31.2h56	v19.2h-56v31.2h60.8V400h-80V280z" />
+<path class="letter-d" data-letter="d" d="M49,280H4.5v120H49c24.5-0.2,44.3-20,44.5-44.5v-31C93.3,300,73.5,280.2,49,280z M74.2,355.5c0,13.9-11.3,25.3-25.3,25.3H23.7v-81.6H49c13.9,0,25.3,11.3,25.3,25.3V355.5z" />
+</g>
+<g>
+<path class="letter-d" data-letter="d" d="M847,215.5v-31	c-0.2-24.5-20-44.3-44.5-44.5h-44.5l0,120h44.5C827.1,259.8,846.9,240,847,215.5z M777.3,159.2h25.3c13.9,0,25.3,11.3,25.3,25.3v31	c0,13.9-11.3,25.3-25.3,25.3h-25.3V159.2z" />
+<path class="letter-n" data-letter="n" d="M669.1,260h-19.2V140h21.4	l48.3,85.1V140h19.2v120h-21.4l-48.3-85.1V260z" />
+<path class="letter-e" data-letter="e" d="M634.2,260h-80V140h80v19.2h-60.8	v31.2h56v19.2h-56v31.2h60.8V260z" />
+<path class="letter-dash" data-letter="dash" d="M484.5,205.6h51.2v19.2h-51.2	L484.5,205.6z" />
+<path class="letter-t" data-letter="t" d="M401.4,140h80v19.2H451V260h-19.2	V159.2h-30.4V140z" />
+<path class="letter-n" data-letter="n" d="M371.8,140H391v120h-21.4	l-48.3-85.1V260h-19.2V140h21.4l48.3,85.1V140z" />
+<path class="letter-o" data-letter="o" d="M241.6,260	c24.5-0.2,44.3-20,44.5-44.5v-31c0-24.6-19.9-44.5-44.5-44.5c-24.6,0-44.5,19.9-44.5,44.5v31C197.3,240,217.1,259.8,241.6,260z M216.3,215.5v-31c0-14,11.3-25.3,25.3-25.3c14,0,25.3,11.3,25.3,25.3c0,0,0,0,0,0v31c0,14-11.3,25.3-25.3,25.3	C227.6,240.8,216.3,229.5,216.3,215.5C216.3,215.5,216.3,215.5,216.3,215.5z" />
+<path class="letter-r" data-letter="r" d="M116.8,209.6h23.7l24.3,50.4h21.4l-25.1-51.7c18.5-5.4,29.1-24.7,23.7-43.2	c-4.3-14.8-17.9-25.1-33.3-25.1H97.6v120h19.2V209.6z M116.8,159.2h34.7c8.6,0,15.6,7,15.6,15.6c0,8.6-7,15.6-15.6,15.6h-34.7V159.2	z" />
+<path class="letter-f" data-letter="f" d="M23.7,159.2v31.2h56v19.2h-56V260	H4.5V140h80v19.2H23.7z" />
+</g>
+<g>
+<path class="letter-r" data-letter="r" d="M467,69.6h23.7L515,120h21.4	l-25.1-51.7c14.9-4.3,25.2-18,25.1-33.6C536.5,15.6,521,0,501.8,0c0,0,0,0-0.1,0h-53.9v120H467V69.6z M467,19.2h34.7	c8.5,0.1,15.5,7,15.5,15.5c0,8.6-6.9,15.6-15.5,15.7H467V19.2z" />
+<path class="letter-o" data-letter="o" d="M387.4,120	c24.5-0.2,44.3-20,44.5-44.5v-31C431.7,20,411.9,0.2,387.4,0c-24.5,0.2-44.3,20-44.5,44.5v31C343.1,100,362.9,119.8,387.4,120z M362.1,44.5c0-13.9,11.3-25.3,25.3-25.3c13.9,0,25.3,11.3,25.3,25.3v31c0,13.9-11.3,25.3-25.3,25.3c-13.9,0-25.3-11.3-25.3-25.3	V44.5z" />
+<path class="letter-i" data-letter="i" d="M326.7,120h-19.2V0h19.2V120z" />
+<path class="letter-n" data-letter="n" d="M218.6,120h-19.2V0h21.4l48.3,85.1	V0h19.2v120h-21.4l-48.3-85.1V120z" />
+<path class="letter-e" data-letter="e" d="M183.7,120h-80V0h80v19.2h-60.8	v31.2h56v19.2h-56v31.2h60.8V120z" />
+<path class="letter-s" data-letter="s" d="M69.8,85.1	c-0.1-8.6-7.1-15.5-15.7-15.5H34.9c-0.1,0-0.2,0-0.2,0C15.4,69.5-0.1,53.9,0,34.7c0-0.1,0-0.1,0-0.2C0.1,15.4,15.7-0.1,34.9,0h20.5	C70.9-0.1,84.6,10.2,89,25.1l-18.4,5.3c-2.1-6.6-8.2-11.2-15.2-11.2H34.9c-8.6,0-15.6,6.9-15.7,15.5c0,8.7,7,15.7,15.7,15.7h19.2	c0.1,0,0.1,0,0.2,0C73.4,50.4,89,65.9,89,85.1c0,0.1,0,0.2,0,0.2c-0.1,19.2-15.7,34.7-34.9,34.6H33.6C18,120.1,4.3,109.8,0,94.9	l18.4-5.3c2.1,6.6,8.2,11.2,15.2,11.2h20.5C62.7,100.8,69.7,93.8,69.8,85.1z" />
+</g>
+</svg>
+            <span class="sr-only">
+Senior <br />
+Front-End <br />
+Developer
+</span>
+        </h1>
+        <div class="availability" style="display: none;">
+            Not available
+        </div>
+        <ul class="site-links">
+            <li>
+                <a href="&#77;&#97;&#105;&#76;&#84;&#79;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#119;&#111;&#100;&#110;&#105;&#97;&#99;&#107;&#46;&#100;&#101;&#118;" data-hover="Go go go!">
+<span>Contact</span>
+</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/AntoineW" target="_blank" rel="noreferrer" data-hover="Why not?">
+<span>Twitter</span>
+</a>
+            </li>
+            <li>
+                <a href="https://codepen.io/wodniack" target="_blank" rel="noreferrer" data-hover="Wow!">
+<span>CodePen</span>
+</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/wodniack/" target="_blank" rel="noreferrer" data-hover="So serious...">
+<span>LinkedIn</span>
+</a>
+            </li>
+        </ul>
+        <div class="scroll-indication"></div>
+    </header>
+    <main class="site-content">
+        <div class="block block--about">
+            <h2 class="block__title">
+                About
+            </h2>
+            <div class="block__text">
+                <p>
+                    I started with Dreamweaver, played with Flash and ActionScript, did back end dev from scratch, worked with all kind of CMS, focused on creative dev, worked on
+                    <a href="#legacy" data-emitter="works" data-hover="Since 2009...">
+<span class="link__text" data-text="123+ projects">
+123+ projects
+</span>
+</a>, ran Waaark studio,
+                    <a href="#awards" data-emitter="awards" data-hover="But who cares?">
+<span class="link__text" data-text="won a few awards">
+won a few awards
+</span>
+</a>, and keep learning.
+                </p>
+                <p>
+                    I work in collaboration with Web Designers to integrate their designs flawlessly with a nice touch of animation.
+                </p>
+            </div>
+        </div>
+        <div class="block block--stack">
+            <h2 class="block__title">
+                Current stack
+            </h2>
+            <ul class="block__stack">
+                <li>#css</li>
+                <li>#js</li>
+                <li>#gsap</li>
+                <li>#wordpress</li>
+                <li>#nuxtjs</li>
+            </ul>
+        </div>
+        <div class="block block--works">
+            <h2 class="block__title">
+                Last works
+            </h2>
+            <ul class="block__works">
+                <li class="work">
+                    <a href="https://www.rudlundschwarm.at" target="_blank" rel="noreferrer">
+rudlundschwarm.at </a>
+                </li>
+                <li class="work">
+                    <a href="https://www.desiderecrutement.com" target="_blank" rel="noreferrer">
+desiderecrutement.com </a>
+                </li>
+                <li class="work">
+                    <a href="https://www.saniswiss.com" target="_blank" rel="noreferrer">
+saniswiss.com </a>
+                </li>
+                <li class="work">
+                    <a href="https://www.honorsociety.tv" target="_blank" rel="noreferrer">
+honorsociety.tv </a>
+                </li>
+                <li class="work">
+                    <a href="https://zoepepper.com" target="_blank" rel="noreferrer">
+zoepepper.com </a>
+                </li>
+                <li class="work">
+                    <a href="https://artisantalent.com" target="_blank" rel="noreferrer">
+artisantalent.com </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <div class="site-works" style="--works: 6;">
+        <article class="work">
+            <a href="https://www.rudlundschwarm.at" target="_blank" rel="noreferrer">
+                <div class="work__title">
+                    <span class="work__title__word">
+Rudl und
+</span>
+                    <span class="work__title__word">
+Schwarm
+<span class="work__title__arrow"></span>
+                    </span>
+                </div>
+                <div class="work__card">
+                    <div class="work__wrapper">
+                        <video src="/static/works/rudl-ld.mp4" muted loop playsinline class="work__video"></video>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="work__mask">
+<path d="" fill-rule="evenodd">
+</svg>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article class="work">
+            <a href="https://www.desiderecrutement.com" target="_blank" rel="noreferrer">
+                <div class="work__title">
+                    <span class="work__title__word">
+Deside
+</span>
+                    <span class="work__title__word">
+Recrutement
+<span class="work__title__arrow"></span>
+                    </span>
+                </div>
+                <div class="work__card">
+                    <div class="work__wrapper">
+                        <video src="/static/works/deside-ld.mp4" muted loop playsinline class="work__video"></video>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="work__mask">
+<path d="" fill-rule="evenodd">
+</svg>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article class="work">
+            <a href="https://www.saniswiss.com" target="_blank" rel="noreferrer">
+                <div class="work__title">
+                    <span class="work__title__word">
+Saniswiss
+<span class="work__title__arrow"></span>
+                    </span>
+                </div>
+                <div class="work__card">
+                    <div class="work__wrapper">
+                        <video src="/static/works/saniswiss-ld.mp4" muted loop playsinline class="work__video"></video>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="work__mask">
+<path d="" fill-rule="evenodd">
+</svg>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article class="work">
+            <a href="https://www.honorsociety.tv" target="_blank" rel="noreferrer">
+                <div class="work__title">
+                    <span class="work__title__word">
+Honor Society
+<span class="work__title__arrow"></span>
+                    </span>
+                </div>
+                <div class="work__card">
+                    <div class="work__wrapper">
+                        <video src="/static/works/honorsociety-ld.mp4" muted loop playsinline class="work__video"></video>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="work__mask">
+<path d="" fill-rule="evenodd">
+</svg>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article class="work">
+            <a href="https://zoepepper.com" target="_blank" rel="noreferrer">
+                <div class="work__title">
+                    <span class="work__title__word">
+Zoë Pepper
+<span class="work__title__arrow"></span>
+                    </span>
+                </div>
+                <div class="work__card">
+                    <div class="work__wrapper">
+                        <video src="/static/works/zoe-ld.mp4" muted loop playsinline class="work__video"></video>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="work__mask">
+<path d="" fill-rule="evenodd">
+</svg>
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article class="work">
+            <a href="https://artisantalent.com" target="_blank" rel="noreferrer">
+                <div class="work__title">
+                    <span class="work__title__word">
+Artisan Talent
+<span class="work__title__arrow"></span>
+                    </span>
+                </div>
+                <div class="work__card">
+                    <div class="work__wrapper">
+                        <video src="/static/works/artisan-ld.mp4" muted loop playsinline class="work__video"></video>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="work__mask">
+<path d="" fill-rule="evenodd">
+</svg>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+    <div id="legacy" class="legacy">
+        <ul class="legacy__works">
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Qubit </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Sabaton Secret Santa </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+NuxtJS </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Skipper Groupe </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Captain Grochat </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+NuxtJS </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Hapu </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Foodify </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+NuxtJS </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Hedder </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Rudl und Schwarm </span>
+                <span class="legacy__year">
+2021 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Périple </span>
+                <span class="legacy__year">
+2020 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Deside Recrutement </span>
+                <span class="legacy__year">
+2020 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Mandala </span>
+                <span class="legacy__year">
+2020 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Dandy's Pet v2 </span>
+                <span class="legacy__year">
+2020 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Cahute </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Saniswiss </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Kohost </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Honor Society </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Perles d’Histoire </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Nextcontinent </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Caxis </span>
+                <span class="legacy__year">
+2019 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+ <span class="legacy__title">
+Agence S v3 </span>
+                <span class="legacy__year">
+2018 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Saguez & Partners </span>
+                <span class="legacy__year">
+2018 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+The Peak Beyond v2 </span>
+                <span class="legacy__year">
+2018 </span>
+                <span class="legacy__stack">
+Vue.js </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Zoë Pepper </span>
+                <span class="legacy__year">
+2018 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Artisan Talent </span>
+                <span class="legacy__year">
+2018 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Kinese </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Lapeyre </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+L’Agence Versions </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Duonext </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Box </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Carbone </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+WordPress, WooCommerce </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Villa A </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Melville Design </span>
+                <span class="legacy__year">
+2017 </span>
+                <span class="legacy__stack">
+WordPress, WooCommerce </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Engzell v2 </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress, Pixi </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Vendôme Luxury </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Domaine <wbr />Calmel & Joseph </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Chateau Autignac </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Waaark </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Involve Digital </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Hunter Farmer </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Alix B. d'Anthenay </span>
+                <span class="legacy__year">
+2016 </span>
+                <span class="legacy__stack">
+WordPress, WooCommerce </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Pedrito Store </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Freewrite </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Bonne Marque </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+JD & Co. </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+OBE </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Agamy </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Engzell v1 </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Perrier-Jouët </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Patrons Paris </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress, WooCommerce </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Foundation </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Restaurant Alsace </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Buzz Arena </span>
+                <span class="legacy__year">
+2015 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Dandy's Pet </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Game of Schools </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+PHP </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Nerisson v2 </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Arexo Consulting </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Auto Car No </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Les Bouillottes de Béa </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Clodius </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Cécile Vaiarelli </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Arte Prix Lux </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Superlovers v2 </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Groupe CS </span>
+                <span class="legacy__year">
+2014 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Longcourt </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Charpentier </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Blou Paris </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Dame de Pic </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Generous Branding v2 </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+SMAC Paloma </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Poivre Blanc </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Knewledge </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+EPS </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Baglioni Hotels </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Calmel & Joseph </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Little+ </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+ASPIR </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+HÔTRECOM </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Domaine de L'Arnesque </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+HB & Associés </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Heliceum </span>
+                <span class="legacy__year">
+2013 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Vincent Tavernier  </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Starmatic </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Dynamis RH </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Covet Chic </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+El Chiringuito-Ibiza </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+M2F Solutions </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Duonext </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Sport Moto Thome </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Nespresso Rolland Garros </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+PHP </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Agence S v2 </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Machine Molle </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Agence Ann(e) </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Stratis </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Superlovers v1 </span>
+                <span class="legacy__year">
+2012 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+François Noël Architectes </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Méditerranée Technologies </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Aurexia </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Generous Branding v1 </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Nerisson v1 </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Unikstudio </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Les Ptits Marmots </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+MBA & Associés </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+BOBUN </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Agence S v1 </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Boisson + Partners </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Nanyn </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Mawenzi Partners </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+WordPress </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Antoine Quéron </span>
+                <span class="legacy__year">
+2011 </span>
+                <span class="legacy__stack">
+PHP </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Paintball Nîmes </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+HTML </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Les Belles Pointures </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Pourquoi <wbr />S'en Priver </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Alpilles Viandes </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Paris Yorker </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Ostéorêve </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Département Architecture </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Joomla </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Domaine de l'Enclos </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Joomla </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Corine Brisbois </span>
+                <span class="legacy__year">
+2010 </span>
+                <span class="legacy__stack">
+Flash </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Henry Ferrier </span>
+                <span class="legacy__year">
+2009 </span>
+                <span class="legacy__stack">
+Flash </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Groupe F </span>
+                <span class="legacy__year">
+2009 </span>
+                <span class="legacy__stack">
+Flash </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Hôtel des mers </span>
+                <span class="legacy__year">
+2009 </span>
+                <span class="legacy__stack">
+Flash </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Bike On Web </span>
+                <span class="legacy__year">
+2009 </span>
+                <span class="legacy__stack">
+Prestashop </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Answerdesign </span>
+                <span class="legacy__year">
+2009 </span>
+                <span class="legacy__stack">
+Flash </span>
+                </span>
+            </li>
+            <li class="legacy__work">
+                <span class="legacy__inner">
+<span class="legacy__title">
+Green Cap </span>
+                <span class="legacy__year">
+2009 </span>
+                <span class="legacy__stack">
+Flash </span>
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div id="awards" class="awards">
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20464'%3E%3C/svg%3E" data-src="/static/awards/ld/FWA_MOTD_jan3_6e09.jpg" alt="" width="300" height="464" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20464'%3E%3C/svg%3E" data-src="/static/awards/ld/FWA_SOTD_feb18_12.jpg" alt="" width="300" height="464" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20464'%3E%3C/svg%3E" data-src="/static/awards/ld/FWA_SOTD_jun2_f8da.jpg" alt="" width="300" height="464" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Bonne Marque - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Engzell 2015 - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Engzell 2016 - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Involve Digital - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] JDandCo - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20397'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Melville - SOTD.jpg" alt="" width="300" height="397" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Starmatic - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Superlovers 2012 - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20397'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Waaark - SOTD.jpg" alt="" width="300" height="397" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20397'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Zoe Pepper - DEV.jpg" alt="" width="300" height="397" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20397'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] Zoe Pepper - SOTD.jpg" alt="" width="300" height="397" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] nerisson 2011 - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/[AWWWARDS] nerisson 2014 - SOTD.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/awwwards-2011Dec14775Bxp.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/awwwards-2012Dec10775Bxp.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/awwwards-2012Mar10775Bxp.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/comm-arts.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-best-breakthrough-studio-2016.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-best-front-end-developer-2015.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-best-front-end-developer-2016.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20140312-wodniack-v2.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20141104-nerisson.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20150414-engzell.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20150712-jdandco.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20151217-bonnemarque.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20160301-freewrite.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20160330-hunterfarmer.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20160421-involvedigital.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20160603-waaark.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20161004-engzell.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20162609-melville.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20170417-carbone.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-wotd-20190413-caxis.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-woty-finalist-nerisson.jpg" alt="" width="300" height="424" class="award" />
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20424'%3E%3C/svg%3E" data-src="/static/awards/ld/cssda-woty-finalist-nerisson.jpg" alt="" width="300" height="424" class="award" />
+    </div>
+    <canvas class="slingshot"></canvas>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YR7XY32F6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8YR7XY32F6');
+    </script>
+</body>
+
+</html>

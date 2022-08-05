@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Keiner';
+    src: url('./keiner/Keiner-Light.woff2') format('woff2'), url('./keiner/Keiner-Light.woff') format('woff'), url('./keiner/Keiner-Light.eot') format('eot');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Keiner';
+    src: url('./keiner/Keiner-Regular.woff2') format('woff2'), url('./keiner/Keiner-Regular.woff') format('woff'), url('./keiner/Keiner-Regular.eot') format('eot');
+    font-weight: 400;
+}
+
+/* @font-face {
+  font-family: 'Keiner';
+  src: url('./keiner/Keiner-Medium.woff2') format('woff2'),
+       url('./keiner/Keiner-Medium.woff') format('woff'),
+       url('./keiner/Keiner-Medium.eot') format('eot');
+  font-weight: 500;
+} */
+
+@font-face {
+    font-family: 'Keiner';
+    src: url('./keiner/Keiner-SemiBold.woff2') format('woff2'), url('./keiner/Keiner-SemiBold.woff') format('woff'), url('./keiner/Keiner-SemiBold.eot') format('eot');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Keiner';
+    src: url('./keiner/Keiner-Bold.woff2') format('woff2'), url('./keiner/Keiner-Bold.woff') format('woff'), url('./keiner/Keiner-Bold.eot') format('eot');
+    font-weight: 700;
+}
